@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/red"
+    android:layout_height="match_parent"
+    tools:context=".activity.service.LeaderBoardActivity">
+
+    <LinearLayout
+        android:weightSum="3"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="5dp"
+            android:background="@drawable/leader_design"
+            android:gravity="center"
+            android:layout_weight="1.2"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:text="Serial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@drawable/leader_design"
+            android:id="@+id/leader_name_id"
+            android:gravity="center"
+            android:layout_weight="0.8"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:padding="5dp"
+            android:background="@drawable/leader_design"
+            android:id="@+id/leader_points_id"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:text="Points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/leader_recycler_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

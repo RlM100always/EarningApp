@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="SelfMe"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EarningApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.ads.AnsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ads.SolveMathActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.GuideLineDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.GuideLineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.LeaderBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.ImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.PaymentBuyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.SupportActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="YOUR_APP_ID" />
+
+        <receiver
+            android:name=".activity.broadcast.VisibilityAlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name=".activity.broadcast.EarningAlarmReceiver"/>
+
+
+        <activity
+            android:name=".activity.service.FirstActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".activity.service.CampainHisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.SpecificUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.MainActivitySupport"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.ControlSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.service.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.loginandsignup.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.service.MainActivity"
+            android:exported="true" />
+        <activity android:name=".activity.loginandsignup.SignUpActivity" />
+    </application>
+
+</manifest>

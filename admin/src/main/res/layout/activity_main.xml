@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/red"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:elevation="5dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/back"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="ADMIN APP"
+        android:backgroundTint="#03A8F8"
+        android:layout_width="170dp"
+        android:layout_height="70dp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/user_id"
+            android:foreground="@drawable/rip"
+            android:padding="8dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/vw_back"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="5dp"
+                android:src="@drawable/totaluser"
+                android:scaleType="centerCrop"
+                android:layout_width="50dp"
+                android:layout_height="55dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/shadow"
+                android:shadowRadius=".5"
+                android:text="Total User"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/campain_id"
+            android:background="@drawable/ct_back"
+            android:foreground="@drawable/rip"
+            android:padding="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="5dp"
+                android:src="@drawable/camp"
+                android:scaleType="centerCrop"
+                android:layout_width="50dp"
+                android:layout_height="55dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/shadow"
+                android:shadowRadius=".5"
+                android:text="Campaigning"
+                android:textColor="#6200EA"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/transection_id"
+            android:background="@drawable/ct_back"
+            android:foreground="@drawable/rip"
+            android:padding="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="5dp"
+                android:src="@drawable/buy_points"
+                android:scaleType="centerCrop"
+                android:layout_width="50dp"
+                android:layout_height="55dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/shadow"
+                android:shadowRadius=".5"
+                android:text="Buy Points"
+                android:textColor="#0030DD"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/visit_web"
+            android:foreground="@drawable/rip"
+            android:padding="8dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/vw_back"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="5dp"
+                android:src="@drawable/withdraw"
+                android:scaleType="centerCrop"
+                android:layout_width="50dp"
+                android:layout_height="55dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/shadow"
+                android:shadowRadius=".5"
+                android:text="Withdraw"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/add_id"
+            android:background="@drawable/ct_back"
+            android:foreground="@drawable/rip"
+            android:padding="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="5dp"
+                android:src="@drawable/ads"
+                android:scaleType="centerCrop"
+                android:layout_width="50dp"
+                android:layout_height="55dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/shadow"
+                android:shadowRadius=".5"
+                android:text="ADS Control"
+                android:textColor="#6200EA"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/ct_back"
+            android:foreground="@drawable/rip"
+            android:padding="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="5dp"
+                android:src="@drawable/notification"
+                android:scaleType="centerCrop"
+                android:layout_width="50dp"
+                android:layout_height="55dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/shadow"
+                android:shadowRadius=".5"
+                android:text="Notification"
+                android:textColor="#0030DD"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

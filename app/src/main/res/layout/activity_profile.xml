@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    tools:context=".activity.service.ProfileActivity">
+
+    <ScrollView
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/user"
+                android:layout_width="230dp"
+                android:layout_height="90dp"/>
+            <TextView
+
+                android:shadowColor="#344B8A"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/green"
+                android:textSize="25dp"
+                android:text="Your Current Balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:shadowRadius="3"
+                android:shadowColor="#344B8A"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:id="@+id/balace"
+                android:textColor="@color/green"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:text="000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_gravity="center"
+                    android:textSize="16.5dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/white"
+                    android:text="⚫️"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius=".5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16.5dp"
+                    android:textColor="@color/white"
+                    android:text=" আপনি কি টাকা Withdraw করতে চাচ্ছেন ? টাকা Withdraw করতে Withdraw বাটনে ক্লিক করুন । "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <TextView
+                android:shadowColor="@color/shadow1"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#57C905"
+                android:background="@drawable/sub_back"
+                android:textSize="20dp"
+                android:foreground="@drawable/rip"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Withdraw"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_gravity="center"
+                    android:textSize="16.5dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/white"
+                    android:text="⚫️"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius=".5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16.5dp"
+                    android:textColor="@color/white"
+                    android:text="আপনি কি টাকা SelfMe App থেকে Point কিনতে চাচ্ছেন ,আপনার Business  এর জন্য ? "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_gravity="center"
+                    android:textSize="16.5dp"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/white"
+                    android:text="⚫️"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius=".5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16.5dp"
+                    android:text="তাহলে নিচের Guideline Follow করুন । "
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/from_back"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="গাইডলাইন"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:src="@drawable/card_payment"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+
+            <TextView
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="15dp"
+                android:shadowColor="@color/shadow"
+                android:shadowDx=".5"
+                android:shadowDy=".5"
+                android:shadowRadius="1.5"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/earn_back"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:text="Payment"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <FrameLayout
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/spinner_back"
+                android:padding="5dp">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/add_points_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+
+            </FrameLayout>
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius=".5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:text="To add balance send your amount to this personal number- 01782086907 (Bkash , Nagad)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:textColorHint="#676565"
+                android:textColor="@color/black"
+                android:paddingLeft="11dp"
+                android:hint="Trnx Id"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/back"
+                android:id="@+id/trnx_id"
+                android:textStyle="italic"
+                android:maxLines="1000"
+                android:inputType="textWebEditText"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"/>
+
+            <ImageView
+                android:id="@+id/profile_image_id"
+
+                android:layout_marginRight="8dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/payment_prove"
+                android:layout_width="300dp"
+                android:layout_height="400dp"/>
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius=".5"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:text="আপনি যে পেমেন্ট করেছেন , তার Screenshot  দিন "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <TextView
+                android:id="@+id/al_ready_use_text_id"
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="italic"
+                android:textColor="#F50404"
+                android:text="Already used this trnx ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginBottom="60dp"
+                android:shadowRadius="3"
+                android:shadowColor="@color/shadow1"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/submit_id"
+                android:textColor="@color/white"
+                android:backgroundTint="#57C905"
+                android:background="@drawable/sub_back"
+                android:textSize="20dp"
+                android:foreground="@drawable/rip"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Submit"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

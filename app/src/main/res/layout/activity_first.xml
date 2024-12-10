@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    android:id="@+id/draw_layout"
+    android:layout_height="match_parent"
+    tools:context=".activity.service.FirstActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/tolbar"
+            android:background="@color/white"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:title="Welcome to SelfMe"
+            app:titleTextColor="@color/black"
+            />
+        <LinearLayout
+            android:weightSum="2"
+            android:background="@drawable/bal_back"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:padding="10dp"
+                    android:src="@drawable/user" />
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/user_balance_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="#7BF1C6"
+                        android:shadowRadius="3"
+                        android:text="Balance :0000"
+                        android:textColor="#258E02"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="@color/shadow1"
+                        android:shadowRadius="1.5"
+                        android:text="Invalid Click : 10000"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="#D50000"
+                        android:textSize="18dp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:padding="5dp"
+                        android:background="#010161"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="@color/white"
+                        android:text="Notice :"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="6dp"
+                        android:id="@+id/marque_first_id"
+                        android:padding="5dp"
+                        android:textSize="15sp"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:textColor="#F8F9F7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:padding="8dp"
+                    android:elevation="10dp"
+                    android:layout_marginTop="15dp"
+                    android:weightSum="4"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/leaderboard_id"
+                        android:elevation="10dp"
+                        android:foreground="@drawable/rip"
+                        android:layout_margin="4dp"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:gravity="center"
+                            android:background="@drawable/sw_back"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+                            <ImageView
+                                android:scaleType="centerCrop"
+                                android:padding="5dp"
+                                android:src="@drawable/leaderboard"
+                                android:layout_width="50dp"
+                                android:layout_height="40dp"/>
+
+                        </LinearLayout>
+                        <TextView
+                            android:textStyle="bold"
+
+                            android:shadowColor="@color/shadow"
+                            android:shadowDx=".5"
+                            android:shadowDy=".5"
+                            android:shadowRadius="1.5"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Leaderboard"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/ll_support_id"
+                        android:elevation="10dp"
+                        android:foreground="@drawable/rip"
+                        android:layout_margin="4dp"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:gravity="center"
+                            android:background="@drawable/wv_back"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+                            <ImageView
+                                android:scaleType="centerCrop"
+                                android:padding="5dp"
+                                android:src="@drawable/support"
+                                android:layout_width="50dp"
+                                android:layout_height="40dp"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:shadowColor="@color/shadow"
+                            android:shadowDx=".5"
+                            android:shadowDy=".5"
+                            android:shadowRadius="1.5"
+                            android:layout_gravity="center"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Support"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:elevation="10dp"
+                        android:foreground="@drawable/rip"
+                        android:layout_margin="4dp"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:id="@+id/video_id"
+                            android:gravity="center"
+                            android:background="@drawable/sm_back"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+                            <ImageView
+                                android:scaleType="centerCrop"
+                                android:padding="5dp"
+                                android:src="@drawable/video"
+                                android:layout_width="50dp"
+                                android:layout_height="40dp"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:shadowColor="@color/shadow"
+                            android:shadowDx=".5"
+                            android:shadowDy=".5"
+                            android:shadowRadius="1.5"
+                            android:layout_gravity="center"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Video Guide"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/notification_first_id"
+                        android:elevation="10dp"
+                        android:foreground="@drawable/rip"
+                        android:layout_margin="4dp"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:gravity="center"
+                            android:background="@drawable/s_back"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+                            <ImageView
+                                android:scaleType="centerCrop"
+                                android:padding="5dp"
+                                android:src="@drawable/notification"
+                                android:layout_width="50dp"
+                                android:layout_height="40dp"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:shadowColor="@color/shadow"
+                            android:shadowDx=".5"
+                            android:shadowDy=".5"
+                            android:shadowRadius="1.5"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Notification"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:src="@drawable/marketing"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"/>
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx=".5"
+                    android:shadowDy=".5"
+                    android:shadowRadius="1.5"
+                    android:layout_gravity="center"
+                    android:textSize="25dp"
+                    android:text="Promoting Product"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:layout_width="100dp"
+                    android:layout_height="2dp"/>
+
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/marketing_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:foreground="@drawable/rip"
+                    android:background="@drawable/curve">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/new_mark"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing=".02"
+                        android:shadowColor="@color/shadow3"
+                        android:shadowRadius="2.5"
+                        android:text="Marketing"
+                        android:textColor="#4CB906"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                        app:layout_constraintHorizontal_bias="0.494"
+                        app:layout_constraintStart_toEndOf="@+id/imageView"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias=".2" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="#0B0505"
+                        android:shadowRadius=".5"
+                        android:text="Earn Traffic by Campaigning"
+                        android:textColor="#503F3F"
+                        android:textSize="13dp"
+                        android:textStyle="normal|italic"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                        app:layout_constraintHorizontal_bias="0.488"
+                        app:layout_constraintStart_toEndOf="@+id/imageView"
+                        app:layout_constraintTop_toBottomOf="@+id/textView"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/right_arrow"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/buy_point_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:foreground="@drawable/rip"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/curve">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/buy_points"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing=".01"
+                        android:shadowColor="@color/shadow3"
+                        android:shadowRadius="2.5"
+                        android:text="Buy Points"
+                        android:textColor="#4CB906"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageV"
+                        app:layout_constraintHorizontal_bias="0.494"
+                        app:layout_constraintStart_toEndOf="@+id/image"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias=".2" />
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="#0B0505"
+                        android:shadowRadius=".5"
+                        android:text="Buy points and grow business"
+                        android:textColor="#503F3F"
+                        android:textSize="13dp"
+                        android:textStyle="normal|italic"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageV"
+                        app:layout_constraintHorizontal_bias="0.488"
+                        app:layout_constraintStart_toEndOf="@+id/image"
+                        app:layout_constraintTop_toBottomOf="@+id/text11"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ImageView
+                        android:id="@+id/imageV"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/right_arrow"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <ImageView
+                    android:src="@drawable/earning"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:shadowColor="@color/shadow"
+                        android:shadowDx=".5"
+                        android:shadowDy=".5"
+                        android:shadowRadius="1.5"
+                        android:layout_gravity="center"
+                        android:textSize="25dp"
+                        android:text="Earn Money"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_marginTop="3dp"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:layout_width="80dp"
+                        android:layout_height="2dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:id="@+id/visit_web"
+                            android:foreground="@drawable/rip"
+                            android:padding="8dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginLeft="8dp"
+                            android:background="@drawable/vw_back"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/website_visit"
+                                android:layout_width="50dp"
+                                android:layout_height="55dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="@color/shadow"
+                                android:shadowRadius=".5"
+                                android:text="Visit Website"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:shadowColor="#0B0505"
+                                android:shadowRadius=".5"
+                                android:textColor="@color/shadow"
+                                android:textStyle="normal|italic"
+                                android:textSize="12dp"
+                                android:text="Earn visiting website"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/first_solve_math_id"
+                            android:foreground="@drawable/rip"
+                            android:padding="8dp"
+                            android:background="@drawable/sm_back"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/solve_math"
+                                android:layout_width="50dp"
+                                android:layout_height="55dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="@color/shadow"
+                                android:shadowRadius=".5"
+                                android:text="Solve Math"
+                                android:textColor="#0030DD"
+                                android:textSize="17dp"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:shadowColor="#0B0505"
+                                android:shadowRadius=".5"
+                                android:textColor="@color/black"
+                                android:textStyle="normal|italic"
+                                android:textSize="12dp"
+                                android:text="Earn money solving math"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:foreground="@drawable/rip"
+                            android:padding="8dp"
+                            android:background="@drawable/ct_back"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:scaleType="fitXY"
+                                android:src="@drawable/complete_task"
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="@color/shadow"
+                                android:shadowRadius=".5"
+                                android:text="Complete Task"
+                                android:textColor="#0030DD"
+                                android:textSize="17dp"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:shadowColor="#0B0505"
+                                android:shadowRadius=".5"
+                                android:textColor="@color/black"
+                                android:textStyle="normal|italic"
+                                android:textSize="12dp"
+                                android:text="Earn completing task"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="6dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginLeft="3dp"
+                            android:foreground="@drawable/rip"
+                            android:id="@+id/new_camp_id"
+                            android:padding="8dp"
+                            android:background="@drawable/wv_back"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/watch_video"
+                                android:layout_width="50dp"
+                                android:layout_height="55dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="@color/shadow"
+                                android:shadowRadius=".5"
+                                android:text="Watch Video"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:shadowColor="#0B0505"
+                                android:shadowRadius=".5"
+                                android:textColor="@color/black"
+                                android:textStyle="normal|italic"
+                                android:textSize="12dp"
+                                android:text="Earn watching video"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginBottom="7dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="8dp"
+                            android:foreground="@drawable/rip"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginLeft="8dp"
+                            android:background="@drawable/s_back"
+
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:scaleType="fitXY"
+                                android:src="@drawable/scratch"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="@color/shadow"
+                                android:shadowRadius=".5"
+                                android:text="Scratch"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:shadowColor="#0B0505"
+                                android:shadowRadius=".5"
+                                android:textColor="@color/black"
+                                android:textStyle="normal|italic"
+                                android:textSize="12dp"
+                                android:text="Scratch and earn money"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:foreground="@drawable/rip"
+                            android:padding="8dp"
+                            android:background="@drawable/sw_back"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:scaleType="fitXY"
+                                android:src="@drawable/spin"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="@color/shadow"
+                                android:shadowRadius=".5"
+                                android:text="Spin Wheel"
+                                android:textColor="#0030DD"
+                                android:textSize="17dp"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:shadowColor="#0B0505"
+                                android:shadowRadius=".5"
+                                android:textColor="@color/black"
+                                android:textStyle="normal|italic"
+                                android:textSize="12dp"
+                                android:text="Spin and earn money"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:src="@drawable/money"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:shadowColor="@color/shadow"
+                    android:shadowDx=".5"
+                    android:shadowDy=".5"
+                    android:shadowRadius="1.5"
+                    android:layout_gravity="center"
+                    android:textSize="25dp"
+                    android:text="Withdraw / Guide"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <View
+                    android:layout_marginTop="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:layout_width="100dp"
+                    android:layout_height="2dp"/>
+
+
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:layout_marginTop="15dp"
+                    android:foreground="@drawable/rip"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/curve">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/withdraw_money"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing=".02"
+                        android:shadowColor="@color/shadow3"
+                        android:shadowRadius="2.5"
+                        android:text="Withdraw"
+                        android:textColor="#4CB906"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+                        app:layout_constraintHorizontal_bias="0.494"
+                        app:layout_constraintStart_toEndOf="@+id/imageView1"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias=".2" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="#0B0505"
+                        android:shadowRadius=".5"
+                        android:text="Withdraw money from SelfMe"
+                        android:textColor="#503F3F"
+                        android:textSize="13dp"
+                        android:textStyle="normal|italic"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+                        app:layout_constraintHorizontal_bias="0.488"
+                        app:layout_constraintStart_toEndOf="@+id/imageView1"
+                        app:layout_constraintTop_toBottomOf="@+id/textView1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/right_arrow"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/guideline_id_first"
+                    android:foreground="@drawable/rip"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/curve">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/guideline"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing=".02"
+                        android:shadowColor="@color/shadow3"
+                        android:shadowRadius="2.5"
+                        android:text="Guideline"
+                        android:textColor="#4CB906"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/image4"
+                        app:layout_constraintHorizontal_bias="0.494"
+                        app:layout_constraintStart_toEndOf="@+id/image1"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias=".2" />
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="#0B0505"
+                        android:shadowRadius=".5"
+                        android:text="Read Complete GuideLine"
+                        android:textColor="#503F3F"
+                        android:textSize="13dp"
+                        android:textStyle="normal|italic"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/image4"
+                        app:layout_constraintHorizontal_bias="0.488"
+                        app:layout_constraintStart_toEndOf="@+id/image1"
+                        app:layout_constraintTop_toBottomOf="@+id/text1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/right_arrow"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:textColorSecondary="@color/green"
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        app:menu="@menu/first"
+        app:headerLayout="@layout/header"
+        android:layout_gravity="start"
+        app:itemIconSize="28dp"
+        android:visibility="visible"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        android:background="@color/red"
+        android:layout_height="match_parent">
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/red"
+    tools:context=".activity.TransectionDetailsActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <HorizontalScrollView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/alldata_id"
+                        android:foreground="@drawable/rip"
+                        android:textColor="@color/white"
+                        android:backgroundTint="#304FFE"
+                        android:layout_margin="7dp"
+                        android:padding="5dp"
+                        android:background="@drawable/shpae"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="All Data"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/today_id"
+                        android:foreground="@drawable/rip"
+                        android:textColor="@color/white"
+                        android:backgroundTint="#64DD17"
+                        android:layout_margin="7dp"
+                        android:padding="5dp"
+                        android:background="@drawable/shpae"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="Today"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/yesterday_id"
+                        android:foreground="@drawable/rip"
+                        android:textColor="@color/white"
+                        android:backgroundTint="#00B8D4"
+                        android:layout_margin="7dp"
+                        android:padding="5dp"
+                        android:background="@drawable/shpae"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="Yesterday"
+                        android:layout_width="110dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:id="@+id/last_7_days"
+                        android:gravity="center"
+                        android:foreground="@drawable/rip"
+                        android:textColor="@color/white"
+                        android:backgroundTint="#AA00FF"
+                        android:layout_margin="7dp"
+                        android:padding="5dp"
+                        android:background="@drawable/shpae"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="Last 7 days"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:id="@+id/last_30_days"
+                        android:gravity="center"
+                        android:foreground="@drawable/rip"
+                        android:textColor="@color/white"
+                        android:backgroundTint="#5F0B5B"
+                        android:layout_margin="7dp"
+                        android:padding="5dp"
+                        android:background="@drawable/shpae"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="Last 30 days"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"/>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:id="@+id/change_id"
+                android:layout_gravity="center"
+                android:foreground="@drawable/rip"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="All Data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/earning_id"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Total Earning 1000 Taka"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+
+            <FrameLayout
+                android:elevation="4dp"
+                android:backgroundTint="#F8A2A2"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/back"
+                android:padding="5dp">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/search_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+
+            <EditText
+                android:backgroundTint="#F8A2A2"
+                android:hint="Search"
+                android:elevation="5dp"
+                android:textColorHint="#5B4747"
+                android:textColor="@color/black"
+                android:paddingLeft="11dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/back"
+                android:id="@+id/edit_id"
+                android:maxLines="1000"
+                android:inputType="textWebEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/trnx_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

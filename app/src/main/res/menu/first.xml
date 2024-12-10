@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/product_id"
+        android:title="Product marketing"
+        >
+        <menu>
+            <group>
+                <item
+                    android:icon="@drawable/baseline_control_point_duplicate_24"
+                    android:title="Buy Points"
+                    />
+
+                <item
+                    android:icon="@drawable/campaign"
+                    android:title="Campaign"
+                    />
+                <item
+                    android:icon="@drawable/baseline_query_stats_24"
+                    android:title="Visitor Status"
+                    />
+                <item
+                    android:icon="@drawable/baseline_approval_24"
+                    android:title="Approval Details"
+                    />
+                <item
+                    android:icon="@drawable/baseline_work_history_24"
+                    android:title="Payment History"
+                    />
+
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/earn_money_id"
+        android:title="Earn Money"
+        >
+        <menu>
+            <group>
+                <item
+                    android:icon="@drawable/basline_visit"
+                    android:title="One Time Earn"
+                    />
+
+                <item
+                    android:icon="@drawable/basline_visit"
+                    android:title="Visiting Website"
+                    />
+
+                <item
+                    android:icon="@drawable/baseline_calculate_24"
+                    android:title="Solve Math"
+                    />
+                <item
+                    android:icon="@drawable/complete_task"
+                    android:title="Complete Task"
+                    />
+                <item
+                    android:icon="@drawable/baseline_ondemand_video_24"
+                    android:title="Watching Video"
+                    />
+                <item
+                    android:icon="@drawable/basline_scratch"
+                    android:title="Scratch"
+                    />
+                <item
+                    android:icon="@drawable/basline_spin"
+                    android:title="Spin Wheel"
+                    />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="TODO">
+        <menu>
+
+            <item
+                android:icon="@drawable/about"
+                android:id="@+id/home_Id"
+                android:title="About Us"
+                />
+
+            <item
+                android:icon="@drawable/supp"
+                android:id="@+id/support_id"
+                android:title="Support"
+                />
+            <item
+                android:icon="@drawable/baseline_share_24"
+                android:id="@+id/newsPostId"
+                android:title="Share"
+                />
+            <item
+                android:icon="@drawable/baseline_star_rate_24"
+                android:title="Rate Us"
+                />
+            <item
+                android:icon="@drawable/baseline_privacy_tip_24"
+                android:title="Privacy Policy"
+                />
+
+        </menu>
+
+    </item>
+
+
+</menu>

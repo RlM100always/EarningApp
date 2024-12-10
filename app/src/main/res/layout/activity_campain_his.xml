@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/red"
+    android:layout_height="match_parent"
+    tools:context=".activity.service.CampainHisActivity">
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/campain_recycler_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/nothing"
+        android:id="@+id/nothing_image"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/nothing_text_id"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="2dp"
+        android:textColor="@color/white"
+        android:maxLines="3"
+        android:textSize="20dp"
+        android:text="✔✔ এই মুহূর্তে আপনার কোন Campaign History পাউয়া যাচ্ছে না..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

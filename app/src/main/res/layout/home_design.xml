@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/red"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:foreground="@drawable/rip"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_id"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"/>
+        <TextView
+            android:textStyle="bold |italic"
+            android:elevation="5dp"
+            android:shadowColor="@color/shadow"
+            android:shadowRadius="0.5"
+            android:padding="4dp"
+            android:id="@+id/title_id"
+            android:textColor="@color/black"
+            android:maxLines="3"
+            android:textSize="25dp"
+            android:text="Make Money in Online"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

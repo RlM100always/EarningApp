@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "920952354580",
+    "firebase_url": "https://earningapp-3c79d-default-rtdb.firebaseio.com",
+    "project_id": "earningapp-3c79d",
+    "storage_bucket": "earningapp-3c79d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920952354580:android:05af21c932ec0bff47b401",
+        "android_client_info": {
+          "package_name": "com.techtravelcoder.admin1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWBAt3WC_QD2AZc7jcPAzBHF_xBmY0Yw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920952354580:android:f9ebde3fe8ea429d47b401",
+        "android_client_info": {
+          "package_name": "com.techtravelcoder.earningapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWBAt3WC_QD2AZc7jcPAzBHF_xBmY0Yw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

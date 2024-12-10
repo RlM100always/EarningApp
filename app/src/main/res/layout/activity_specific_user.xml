@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    tools:context=".activity.service.SpecificUserActivity">
+
+    <LinearLayout
+
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:elevation="5dp"
+            android:padding="5dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:backgroundTint="#2962FF"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sub_back"
+            android:foreground="@drawable/rip"
+            android:text="All"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:elevation="5dp"
+            android:padding="5dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:backgroundTint="#062C72"
+            android:id="@+id/status_check_id"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sub_back"
+            android:foreground="@drawable/rip"
+            android:text="Pending"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+        <TextView
+            android:elevation="5dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:backgroundTint="#5DCF15"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sub_back"
+            android:foreground="@drawable/rip"
+            android:text="Approve"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:id="@+id/specific_recycler_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/nothing"
+        android:id="@+id/nothing_image_specific"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/nothing_text_id_specific"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="2dp"
+        android:textColor="@color/white"
+        android:maxLines="3"
+        android:textSize="20dp"
+        android:text="✔✔ এই মুহূর্তে আপনার কোন Campaign History পাউয়া যাচ্ছে না..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

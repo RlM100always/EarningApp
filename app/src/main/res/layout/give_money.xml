@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/success"
+        android:layout_width="60dp"
+        android:layout_height="65dp"/>
+    <TextView
+        android:letterSpacing=".05"
+        android:textColor="#00C853"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="✔ Congratulations!!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:text="✔ Payment successful"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="30dp"
+        android:letterSpacing=".02"
+        android:textColor="#3E403D"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:text="✔ Please wait, Admin will Add your points in your Account, after checking "
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="30dp"
+        android:letterSpacing=".02"
+        android:textColor="#3F433B"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/ok_id"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#49B304"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:background="@drawable/sw_back"
+        android:letterSpacing=".01"
+        android:textColor="@color/white"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="OK"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

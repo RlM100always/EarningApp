@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.service.GuideLineDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="17dp"
+                android:text="SelfMe কি?  এটি কিভাবে কাজ করে?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:padding="4dp"
+                android:background="@drawable/guideline_image_background"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/check"
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="500dp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="17dp"
+                android:text="SelfMe কি?  এটি কিভাবে কাজ করে?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:padding="4dp"
+                android:background="@drawable/guideline_image_background"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/check"
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="500dp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="17dp"
+                android:text="SelfMe কি?  এটি কিভাবে কাজ করে?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:padding="4dp"
+                android:background="@drawable/guideline_image_background"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/check"
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="500dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Admin SelfMe"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EarningApp">
+        <activity
+            android:name=".activity.ImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdsControlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UserDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TransectionDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CampainingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

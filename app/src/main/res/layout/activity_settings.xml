@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/red"
+    android:layout_height="match_parent"
+    tools:context=".activity.service.SettingsActivity">
+
+    <ScrollView
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/from_back"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Fillup This From"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/company_title_id"
+                android:textColorHint="#676565"
+                android:textColor="@color/black"
+                android:paddingLeft="11dp"
+                android:hint="Enter a title ..  "
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/back"
+                android:maxLines="1000"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"/>
+            <EditText
+                android:textColorHint="#676565"
+                android:textColor="@color/black"
+                android:paddingLeft="11dp"
+                android:hint="Enter website/app/product link... "
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/back"
+                android:id="@+id/link_id"
+                android:maxLines="1000"
+                android:inputType="textWebEditText"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"/>
+
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius=".5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:text="SelfMe Not allow adult link or content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/select_image_id"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/company"
+                android:layout_width="200dp"
+                android:layout_height="120dp"/>
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius=".5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:text="Give a Screenshot of your company/website/product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <FrameLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/spinner_back"
+                android:padding="5dp">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/worker_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius=".5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:text="Per traffic/visitor cost 10 points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius=".5"
+                android:id="@+id/point_calculate_id"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:text="Total need 0 points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2.5"
+                android:layout_marginBottom="60dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:id="@+id/submit_id"
+                android:textColor="@color/white"
+                android:backgroundTint="#57C905"
+                android:background="@drawable/sub_back"
+                android:textSize="20dp"
+                android:foreground="@drawable/rip"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Submit"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

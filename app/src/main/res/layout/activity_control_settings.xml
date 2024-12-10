@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/red"
+    android:layout_height="match_parent"
+    tools:context=".activity.service.ControlSettingsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:shadowColor="@color/shadow"
+
+                android:shadowRadius=".5"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="16.6dp"
+                android:text="⚫️ আপনি কি, আপনার কোম্পানি, ওয়েবসাইট, ইউটিউব চেনেল, গুগল এডসেন্স, এডমুব etc এর জন্ন্যে অরগানিক Visitor চাচ্ছেন ?
+ তাহলে SelfMe হতে পারে,আপনার Business এর মার্কেটিং করার জন্য বেস্ট Solution."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowRadius=".5"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="16.5dp"
+                android:text="⚫️ বিস্তারিত জানতে গাইডলাইন বাটনে ক্লিক করুন "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowRadius="2.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/from_back"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="গাইডলাইন"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:src="@drawable/business"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <TextView
+                android:shadowColor="@color/shadow"
+                android:shadowRadius="1.5"
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+
+                android:elevation="5dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="22.5dp"
+                android:text="🔷 More Campaigning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowColor="@color/shadow"
+                android:shadowRadius="1.5"
+                android:elevation="5dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/yellow"
+                android:textSize="22.5dp"
+                android:text="🔶 More Organic Visitor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowColor="@color/shadow"
+                android:shadowRadius="1.5"
+                android:elevation="5dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="22.5dp"
+                android:text="🔷 Earn More Money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/new_camp_id"
+                    android:padding="8dp"
+                    android:background="@drawable/sw_back"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/campaign"
+                        android:layout_width="70dp"
+                        android:layout_height="65dp"/>
+                    <TextView
+                        android:shadowColor="@color/shadow1"
+
+                        android:shadowRadius=".5"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:text="Start Campaigning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/camp_history_id"
+                    android:padding="8dp"
+                    android:background="@drawable/sm_back"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/analytics"
+                        android:layout_width="70dp"
+                        android:layout_height="65dp"/>
+                    <TextView
+                        android:shadowColor="@color/shadow1"
+
+                        android:shadowRadius=".5"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:text="Visitor Status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/posted_job_id"
+                    android:padding="8dp"
+                    android:background="@drawable/ct_back"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/status"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"/>
+                    <TextView
+                        android:shadowColor="@color/shadow1"
+
+                        android:shadowRadius=".5"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:text="Approval Details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/payment_his_id"
+                    android:foreground="@drawable/rip"
+                    android:padding="8dp"
+                    android:background="@drawable/s_back"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/payment"
+                        android:layout_width="70dp"
+                        android:layout_height="65dp"/>
+                    <TextView
+                        android:shadowColor="@color/shadow1"
+                        android:shadowRadius=".5"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:text="Payment History"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

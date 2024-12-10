@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/green"
+                android:scaleType="centerCrop"
+                android:id="@+id/news_design_user_image_id"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/admin"
+                />
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Admin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/notification_date_id"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="28 December 2023"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:autoLink="all"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:id="@+id/notification_text_id"
+        android:textSize="18sp"
+        android:maxLines="2000"
+        android:text="ami vat khi tmi ki khau............. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/notification_photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+
+            android:scaleType="centerCrop"
+        android:id="@+id/notification_image_id"
+        android:src="@drawable/withdraw"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"/>
+    </LinearLayout>
+
+</LinearLayout>

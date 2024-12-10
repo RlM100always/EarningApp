@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/red"
+    tools:context=".activity.service.GuideLineActivity">
+
+    <ScrollView
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1.5dp"
+                    app:civ_border_color="@color/black"
+                    android:scaleType="centerCrop"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/selfme_logo"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/ques1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:text="SelfMe কি?  এটি কিভাবে কাজ করে?"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="#A4F1E6"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="16dp"
+                        android:text="বিস্তারিত জানতে......"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="#97A6FC"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.1dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1.5dp"
+                    app:civ_border_color="@color/black"
+                    android:scaleType="centerCrop"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/selfme_logo"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/ques2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:text="SelfMe App বেবহার করে কিভাবে আপনার Business এর Campaign করবেন??"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="#A4F1E6"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="16dp"
+                        android:text="বিস্তারিত জানতে......"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="#97A6FC"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.1dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1.5dp"
+                    app:civ_border_color="@color/black"
+                    android:scaleType="centerCrop"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/selfme_logo"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/ques3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:text="SelfMe App থেকে কিভাবে টাকা ইনকাম করবেন?"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="#A4F1E6"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="16dp"
+                        android:text="বিস্তারিত জানতে......"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="#97A6FC"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.1dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1.5dp"
+                    app:civ_border_color="@color/black"
+                    android:scaleType="centerCrop"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/selfme_logo"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/ques4"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:text="SelfMe App  থেকে কিভাবে Points কিনবেন?"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="#A4F1E6"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="16dp"
+                        android:text="বিস্তারিত জানতে......"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="#97A6FC"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.1dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1.5dp"
+                    app:civ_border_color="@color/black"
+                    android:scaleType="centerCrop"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/selfme_logo"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/ques5"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:text="OT Earning  কি? কিভাবে OT Earning করবেন?"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="#A4F1E6"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="16dp"
+                        android:text="বিস্তারিত জানতে......"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="#97A6FC"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.1dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1.5dp"
+                    app:civ_border_color="@color/black"
+                    android:scaleType="centerCrop"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/selfme_logo"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/ques6"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:text="SelfMe App থেকে কিভাবে Payment নিবেন?"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="#A4F1E6"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="16dp"
+                        android:text="বিস্তারিত জানতে......"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="#97A6FC"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.1dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1.5dp"
+                    app:civ_border_color="@color/black"
+                    android:scaleType="centerCrop"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/selfme_logo"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/ques7"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:text="SelfMe কি বিশস্ত?"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="#A4F1E6"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="16dp"
+                        android:text="বিস্তারিত জানতে......"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="#97A6FC"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.1dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1.5dp"
+                    app:civ_border_color="@color/black"
+                    android:scaleType="centerCrop"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/selfme_logo"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/ques8"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:text="কিভাবে Support Group এ এড হবেন?"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="#A4F1E6"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="16dp"
+                        android:text="বিস্তারিত জানতে......"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="#97A6FC"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.1dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1.5dp"
+                    app:civ_border_color="@color/black"
+                    android:scaleType="centerCrop"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/selfme_logo"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <LinearLayout
+                    android:foreground="@drawable/rip"
+                    android:id="@+id/ques9"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:text="কিভাবে যেকোন সমস্যায় SelfMe Team এর সাথে কথা বলবেন?"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textColor="#A4F1E6"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="16dp"
+                        android:text="বিস্তারিত জানতে......"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="#97A6FC"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.1dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

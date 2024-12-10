@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/red"
+    android:layout_height="match_parent"
+    tools:context=".activity.ads.AnsActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ans_imgview_id"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/reward"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/ans_cing_id"
+            android:letterSpacing=".05"
+            android:textColor="#AEEA00"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="✔ Congratulations!!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/ans_point_id"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:letterSpacing=".02"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="✔ You Earn 1 Points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <com.startapp.sdk.ads.banner.Banner
+        android:id="@+id/startAppBannerAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:gravity="bottom" />
+
+
+</RelativeLayout>

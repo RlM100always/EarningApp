@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+    android:elevation="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:textSize="17dp"
+        android:text="1.Online Income / workers 50 /Cost 520 points /22/11/2023 "
+        android:id="@+id/all_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:paddingTop="7dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginBottom="12dp"
+            android:id="@+id/copy_link_id"
+            android:elevation="4dp"
+            android:foreground="@drawable/rip"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="15dp"
+            android:padding="4dp"
+            android:background="@drawable/back"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="Copy Link : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:id="@+id/pending_id"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="8dp"
+                android:background="#FF6C6464"
+                android:foreground="@drawable/rip"
+                android:padding="3dp"
+                android:text="Pending  "
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
