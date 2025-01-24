@@ -1,51 +1,45 @@
-# Movie World (Jetpack Compose) 
-[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-1.7.6-%230075FF.svg)](https://developer.android.com/jetpack/compose)
-![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
-[![API](https://img.shields.io/badge/API-23%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=23)
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.1.0-blue.svg?style=flat&logo=kotlin)](https://kotlinlang.org)
-[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
-<a href="https://github.com/piashcse"><img alt="License" src="https://img.shields.io/static/v1?label=GitHub&message=piashcse&color=C51162"/></a>
-
-Movie World app built with Jetpack Compose, Hilt, Coroutines, Flow, Room and ViewModel based on MVVM architecture. The app follows the architecture to ensure clean, maintainable code and delivers a responsive, modern UI experience, leveraging [The Movie DB API](https://www.themoviedb.org). </br>
+# SelfMe Android Application
 
 
+It is an earning and Marketing Application . User Can promote thier Website by Using This app also they can Earn Money by Playing Some games .<br>
+
+## Technology Used 🛠
+- Java Language
+- Xml for Design
+- Firebase for Backend
+
+## User Screenshot
 <p align="center">
-  <img width="30%" height="50%" src="https://github.com/piashcse/Hilt-MVVM-Compose-Movie/blob/master/screenshots/1730809622225_100.PNG" />
-  <img width="30%" height="50%" src="https://github.com/piashcse/Hilt-MVVM-Compose-Movie/blob/master/screenshots/1730809667231_100.PNG" />
-  <img width="30%" height="50%" src="https://github.com/piashcse/Hilt-MVVM-Compose-Movie/blob/master/screenshots/1732207539374_100.PNG" />
-  <img width="30%" height="50%" src="https://github.com/piashcse/Hilt-MVVM-Compose-Movie/blob/master/screenshots/1730809653767_100.PNG" />
-  <img width="30%" height="50%" src="https://github.com/piashcse/Hilt-MVVM-Compose-Movie/blob/master/screenshots/1730809637511_100.PNG" />
-  <img width="30%" height="50%" src="https://github.com/piashcse/Hilt-MVVM-Compose-Movie/blob/master/screenshots/1732207549776_100.PNG" />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-18-17_05af06492da4e9a63740615e851714b0.jpg"  />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-12-77_05af06492da4e9a63740615e851714b0.jpg" />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-26-69_05af06492da4e9a63740615e851714b0.jpg" />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-36-27_05af06492da4e9a63740615e851714b0.jpg" />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-40-36_05af06492da4e9a63740615e851714b0.jpg" />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-47-25_05af06492da4e9a63740615e851714b0.jpg" />
+  
+  
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-40-48-00_05af06492da4e9a63740615e851714b0.jpg" />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-41-36-17_05af06492da4e9a63740615e851714b0.jpg" />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-41-40-85_05af06492da4e9a63740615e851714b0.jpg" />
+</p>
+ 
+
+## Admin Screenshot 
+<p align="center">
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-18-17_05af06492da4e9a63740615e851714b0.jpg"  />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-12-77_05af06492da4e9a63740615e851714b0.jpg" />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-26-69_05af06492da4e9a63740615e851714b0.jpg" />
+  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-36-27_05af06492da4e9a63740615e851714b0.jpg" />
+ 
 </p>
 
-<p align="center" width="100%">
-   <img width="35%" height="50%" src="https://github.com/piashcse/Hilt-MVVM-Compose-Movie/blob/master/screenshots/movie_world.gif" />
- </p>
+## App Video Link 🔑
+<a hreef="">See Video </a>
 
-# Main Features
-- Movie
-  - Movie List  
-  - Movie Search
-  - Movie Detail
-  - Recommended Movie
-  - Favorite Movie in room DB
-- TV Series
-  - TV Series List
-  - TV Series Search
-  - TV Series Detail
-  - Recommended TV Series
-  - Favorite TV Series in room DB
-- Artist detail
-- Pagination with paging3
-- Filter with genre 
-- Bottom navigation
-- Network connection state with SnackBar
+## Download APK 🔑
+<a hreef="">Download App </a>
 
 
-
-## API Key 🔑
-
-## Built With 🛠
 
 ## 👨 Developed By
 
