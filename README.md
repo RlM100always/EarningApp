@@ -27,20 +27,12 @@ Users can promote their websites 📢 and earn money 💸 by playing exciting ga
 
 
 ## 📸 User Screenshots  
-<p align="center">
-  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-18-17_05af06492da4e9a63740615e851714b0.jpg"  />
-  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-12-77_05af06492da4e9a63740615e851714b0.jpg" />
-  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-26-69_05af06492da4e9a63740615e851714b0.jpg" />
-</p>
+<p align="center"> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-18-17_05af06492da4e9a63740615e851714b0.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-12-77_05af06492da4e9a63740615e851714b0.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-26-69_05af06492da4e9a63740615e851714b0.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-36-27_05af06492da4e9a63740615e851714b0.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-40-36_05af06492da4e9a63740615e851714b0.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-47-25_05af06492da4e9a63740615e851714b0.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-40-48-00_05af06492da4e9a63740615e851714b0.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-41-36-17_05af06492da4e9a63740615e851714b0.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-41-40-85_05af06492da4e9a63740615e851714b0.jpg" /> </p>
 
 
 
 ## 📊 Admin Screenshots  
-<p align="center">
-  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/Admin/Screenshot_2025-01-24-17-26-01-50_ea7b947956d4a99e9afc01ad75167bec.jpg"  />
-  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/Admin/Screenshot_2025-01-24-17-26-06-80_ea7b947956d4a99e9afc01ad75167bec.jpg" />
-  <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/Admin/Screenshot_2025-01-24-17-26-12-33_ea7b947956d4a99e9afc01ad75167bec.jpg" />
-</p>
+<p align="center"> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/Admin/Screenshot_2025-01-24-17-26-01-50_ea7b947956d4a99e9afc01ad75167bec.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/Admin/Screenshot_2025-01-24-17-26-06-80_ea7b947956d4a99e9afc01ad75167bec.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/Admin/Screenshot_2025-01-24-17-26-12-33_ea7b947956d4a99e9afc01ad75167bec.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/User/Screenshot_2025-01-24-16-36-36-27_05af06492da4e9a63740615e851714b0.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/Admin/Screenshot_2025-01-24-17-26-17-70_ea7b947956d4a99e9afc01ad75167bec.jpg" /> <img width="30%" height="50%" src="https://github.com/RlM100always/Hisab/blob/main/ScreenShot/Selfme/Admin/Screenshot_2025-01-24-17-26-25-12_ea7b947956d4a99e9afc01ad75167bec.jpg" /> </p>
 
 
 
@@ -53,12 +45,12 @@ Users can promote their websites 📢 and earn money 💸 by playing exciting ga
 
 
 ## 🌐 GitHub Repository  
-🔗 **[GitHub Project Link](https://github.com/RlM100always)**  
+🔗 **[GitHub Profile Link](https://github.com/RlM100always)**  
 
 
 
 ## 👨‍💻 Developed By  
-<a href="https://twitter.com/piashcse" target="_blank">
+<a href="https://www.linkedin.com/in/rlm100always/" target="_blank">
   <img src="https://avatars.githubusercontent.com/u/109984220?v=4" width="80" align="left">
 </a>
 
@@ -68,7 +60,8 @@ Users can promote their websites 📢 and earn money 💸 by playing exciting ga
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/rlm100always/)
 
 
-# License
+
+## 📝 License  
 ```
 Copyright 2024 piashcse (Md Rakib Hossain)
 
@@ -86,4 +79,3 @@ limitations under the License.
 ```
 
 
-## 📝 License  
