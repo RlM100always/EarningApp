@@ -63,7 +63,7 @@ Users can promote their websites 📢 and earn money 💸 by playing exciting ga
 
 ## 📝 License  
 ```
-Copyright 2024 piashcse (Md Rakib Hossain)
+Copyright 2024 RlM100Always(Md Rakib Hossain)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
