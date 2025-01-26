@@ -22,7 +22,7 @@ Users can promote their websites 📢 and earn money 💸 by playing exciting ga
 ## 🛠 Technology Stack
 - **Programming Language**: Java ☕
 - **UI Design**: XML 🖌️
-- **Backend**: Firebase 🔥
+- **Backend**: Firebase and SQLITE 🔥
 
 
 
