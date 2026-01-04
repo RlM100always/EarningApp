@@ -1,5 +1,16 @@
 # 🌟 SelfMe Android Application 🌟
 
+<p align="center">
+  <a href="https://drive.google.com/file/d/1l129EV-qURme2lS3GFmh675KM0KxHlaa/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20App-Google%20Play-34A853?logo=google-play&logoColor=white" alt="Live App on Google Play"/>
+  </a>
+  &nbsp;
+  <a href="https://drive.google.com/file/d/1Yb_THyirwuiD-ImN3Bwcv69lmuujvrX8/view" target="_blank">
+    <img src="https://img.shields.io/badge/Demo%20Video-Watch-red?logo=youtube&logoColor=white" alt="Demo Video"/>
+  </a>
+</p>
+
+
 SelfMe is an innovative **Earning and Marketing Application**! 🎯  
 Users can promote their websites 📢 and earn money 💸 by playing exciting games. 🎮  
 
